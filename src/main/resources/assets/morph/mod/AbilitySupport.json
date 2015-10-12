@@ -1177,7 +1177,25 @@
     "hostile",
     "climb"
   ],
-  "lycanite.lycanitesmobs.demonmobs.entity.EntityAsmodi": [
+  "lycanite.lycanitesmobs.arcticmobs.entity.EntityArix": [
+  	"hostile",
+  	"fly|true"
+  ],
+  "lycanite.lycanitesmobs.arcticmobs.entity.EntityFrostweaver": [
+  	"hostile",
+  	"climb"
+  ],
+  "lycanite.lycanitesmobs.arcticmobs.entity.EntityReiver": [
+  	"hostile",
+  	"fly|true"
+  ],
+  "lycanite.lycanitesmobs.arcticmobs.entity.EntitySerpix": [
+  	"hostile"
+  ],
+  "lycanite.lycanitesmobs.arcticmobs.entity.EntityWendigo": [
+  	"hostile"
+  ],
+  "lycanite.lycanitesmobs.demonmobs.entity.EntityAstaroth": [
     "fireImmunity",
     "hostile"
   ],
@@ -1214,12 +1232,6 @@
   "lycanite.lycanitesmobs.desertmobs.entity.EntityClink": [
     "hostile"
   ],
-  "lycanite.lycanitesmobs.desertmobs.entity.EntityManticore": [
-    "fireImmunity",
-    "waterAllergy",
-    "fly|true",
-    "hostile"
-  ],
   "lycanite.lycanitesmobs.desertmobs.entity.EntityCrusk": [
     "hostile"
   ],
@@ -1237,6 +1249,202 @@
   ],
   "lycanite.lycanitesmobs.desertmobs.entity.EntityJoustAlpha": [
     "hostile"
+  ],
+    "lycanite.lycanitesmobs.desertmobs.entity.EntityManticore": [
+    "fireImmunity",
+    "waterAllergy",
+    "fly|true",
+    "hostile"
+  ],
+  "lycanite.lycanitesmobs.forestmobs.entity.EntityEnt": [
+  	"hostile"
+  ],
+  "lycanite.lycanitesmobs.forestmobs.entity.EntityShambler": [
+  	"hostile"
+  ],
+  "lycanite.lycanitesmobs.forestmobs.entity.EntitySpriggan": [
+  	"hostile",
+  	"fly|true"
+  ],
+  "lycanite.lycanitesmobs.forestmobs.entity.EntityTrent": [
+  	"hostile",
+  	"step|2F"
+  ],
+  "lycanite.lycanitesmobs.forestmobs.entity.EntityWarg": [
+  	"hostile"
+  ],
+  "lycanite.lycanitesmobs.freshwatermobs.entity.EntityJengu": [
+  	"hostile",
+  	"fly|true",
+  	"fireImmunity",
+  	"swim|true"
+  ],
+  "lycanite.lycanitesmobs.freshwatermobs.entity.EntitySilex": [
+  	"swim|true,1.5F,1.5F,false",
+  	"fireImmunity"
+  ],
+  "lycanite.lycanitesmobs.freshwatermobs.entity.EntityStrider": [
+  	"hostile",
+  	"swim|true",
+  	"step|2F"
+  ],
+  "lycanite.lycanitesmobs.freshwatermobs.entity.EntityZephyr": [
+  	"hostile",
+  	"fly|true"
+  ],
+  "lycanite.lycanitesmobs.infernomobs.entity.EntityAfrit": [
+  	"hostile",
+  	"fly|true",
+  	"fireImmunity",
+  	"waterAllergy"
+  ],
+  "lycanite.lycanitesmobs.infernomobs.entity.EntityCephignis": [
+  	"waterAllergy",
+  	"fireImmunity",
+  	"swim|true,1F,1F,true"
+  ],
+  "lycanite.lycanitesmobs.infernomobs.entity.EntityCinder": [
+  	"hostile",
+  	"waterAllergy",
+  	"fireImmunity",
+  	"fly|true"
+  ],
+  "lycanite.lycanitesmobs.infernomobs.entity.EntityKhalk": [
+  	"fireImmunity",
+  	"hostile",
+  	"swim|true,1F,1F,false",
+  	"waterAllergy",
+  	   "sink"
+  ],
+  "lycanite.lycanitesmobs.infernomobs.entity.EntityLobber": [
+  	"fireImmunity",
+  	"hostile",
+  	"waterAllergy",
+  	   "sink"
+  ],
+  "lycanite.lycanitesmobs.junglemobs.entity.EntityConba": [
+  	"hostile",
+  	"poisonResistance"
+  ],
+  "lycanite.lycanitesmobs.junglemobs.entity.EntityConcapede": [
+  	"hostile"
+  ],
+  "lycanite.lycanitesmobs.junglemobs.entity.EntityGeken": [
+  	"hostile",
+  	"fallNegate",
+  	"poisonResistance"
+  ],
+  "lycanite.lycanitesmobs.junglemobs.entity.EntityTarantula": [
+  	"hostile",
+  	"climb",
+  	"poisonResistance",
+  	"fallNegate"
+  ],
+    "lycanite.lycanitesmobs.junglesmobs.entity.EntityUvaraptor": [
+    	"float|-0.114,true",
+    	"hostile"
+  ],
+  "lycanite.lycanitesmobs.junglemobs.entity.EntityVespid": [
+  	"hostile",
+  	"fly|true",
+  	"poisonResistance"
+  ],
+  "lycanite.lycanitesmobs.junglemobs.entity.EntityVespidQueen": [
+  	"hostile",
+  	"fly|true,
+  	"poisonResistance"
+  ],
+  "lycanite.lycanitesmobs.mountainmobs.entity.EntityBarghest": [
+  	"hostile",
+  	"fallNegate"
+  ],
+  "lycanite.lycanitesmobs.mountainmobs.entity.EntityBeholder": [
+  	"hostile",
+  	"fly|true",
+  	"fireImmunity",
+  	"poisonResistance"
+  ],
+  "lycanite.lycanitesmobs.mountainmobs.entity.EntityGeonach": [
+  	"hostile",
+  	"fly|true",
+  	"fireImmunity"
+  ],
+  "lycanite.lycanitesmobs.mountainmobs.entity.EntityJabberwock": [
+  	"hostile",
+  	"fallNegate"
+  ],
+  "lycanite.lycanitesmobs.mountainmobs.entity.EntityTroll": [
+  	"hostile",
+  	"fallNegate",
+  	"fireImmunity"
+  ],
+  "lycanite.lycanitesmobs.mountainmobs.entity.EntityYale": [
+  	"fallNegate"
+  ],
+  "lycanite.lycanitesmobs.plainsmobs.entity.EntityKobold": [
+    "hostile"
+  ],
+    "lycanite.lycanitesmobs.plainsmobs.entity.EntityRoc": [
+  	"hostile",
+  	"fly|true"
+  ],
+  "lycanite.lycanitesmobs.plainsmobs.entity.EntityVentoraptor": [
+    "float|-0.114,true",
+    "hostile"
+  ],
+  "lycanite.lycanitesmobs.plainsmobs.entity.EntityZoataur": [
+  	"hostile",
+  	"fallNegate",
+  	"step|1F"
+  ],
+  "lycanite.lycanitesmobs.saltwatermobs.entity.EntityAbtu": [
+  	"hostile",
+  	"swim|true,1.5F,1.5F,true"
+  ],
+  "lycanite.lycanitesmobs.saltwatermobs.entity.EntityIka": [
+  	"swim|true,1F,1F,true"
+  ],
+  "lycanite.lycanitesmobs.saltwatermobs.entity.EntityLacedon": [
+  	"hostile",
+  	"swim|false,1.5F,1.5F,true"
+  ],
+  "lycanite.lycanitesmobs.saltwatermobs.entity.EntityRaiko": [
+  	"hostile",
+  	"fly|true"
+  ],
+  "lycanite.lycanitesmobs.saltwatermobs.entity.EntitySkylus": [
+  	"hostile",
+  	"swim|true,1F,1F,true"
+  ],
+  "lycanite.lycanitesmobs.shadowmobs.entity.EntityChupacabra": [
+  	"hostile",
+  	"sink"
+  ],
+  "lycanite.lycanitesmobs.shadowmobs.entity.EntityEpion": [
+  	"hostile",
+  	"sunburn",
+  	"fly|true"
+  ],
+  "lycanite.lycanitesmobs.shadowmobs.entity.EntityGeist": [
+  	"hostile",
+  	"sink",
+  	"sunburn"
+  ],
+  "lycanite.lycanitesmobs.shadowmobs.entity.EntityGrue": [
+  	"hostile",
+  	"fly|true",
+  	"sunburn",
+  	"swim|true"
+  ],
+  "lycanite.lycanitesmobs.shadowmobs.entity.EntityPhantom": [
+  	"hostile",
+  	"fly|true",
+  	"swim|true",
+  	"sunburn"
+  ],
+  "lycanite.lycanitesmobs.shadowmobs.entity.EntityShade": [
+  	"hostile"
+  	"step|1F"
   ],
   "lycanite.lycanitesmobs.swampmobs.entity.EntityAspid": [
     "swim|true,1.5F,1.5F,false",
@@ -1266,17 +1474,6 @@
   "lycanite.lycanitesmobs.swampmobs.entity.EntityRemobra": [
     "poisonResistance",
     "fly|true",
-    "hostile"
-  ],
-  "lycanite.lycanitesmobs.plainsmobs.entity.EntityVentoraptor": [
-    "float|-0.114,true",
-    "hostile"
-  ],
-  "lycanite.lycanitesmobs.plainsmobs.entity.EntityKobold": [
-    "hostile"
-  ],
-  "lycanite.lycanitesmobs.junglesmobs.entity.EntityUvaraptor": [
-    "float|-0.114,true",
     "hostile"
   ],
   "mods.dungeonMobs.EntityAhriman": [
