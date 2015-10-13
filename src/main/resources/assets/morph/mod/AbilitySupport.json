@@ -1351,7 +1351,7 @@
   ],
   "lycanite.lycanitesmobs.junglemobs.entity.EntityVespidQueen": [
   	"hostile",
-  	"fly|true,
+  	"fly|true",
   	"poisonResistance"
   ],
   "lycanite.lycanitesmobs.mountainmobs.entity.EntityBarghest": [
@@ -1443,7 +1443,7 @@
   	"sunburn"
   ],
   "lycanite.lycanitesmobs.shadowmobs.entity.EntityShade": [
-  	"hostile"
+  	"hostile",
   	"step|1F"
   ],
   "lycanite.lycanitesmobs.swampmobs.entity.EntityAspid": [
